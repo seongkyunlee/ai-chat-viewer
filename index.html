@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI 토론 채팅</title>
+  <style>
+    #chat-container {
+      max-width: 600px;
+      margin: 0 auto;
+      height: 400px;
+      overflow-y: auto;
+      background: #f7f7f7;
+      padding: 16px;
+      border-radius: 8px;
+      font-family: sans-serif;
+    }
+    .chat-line { margin-bottom: 12px; }
+    .chat-line strong { margin-right: 6px; }
+  </style>
+</head>
+<body>
+  <div id="chat-container"></div>
+  <script>
+    async function fetchMessages() {
+      try {
+        const res = await fetch('https://YOUR_SERVER_DOMAIN/api/messages');
+        const msgs = await res.json();
+        const cont = document.getElementById('chat-container');
+        cont.innerHTML = '';
+        msgs.forEach(m => {
+          const d = document.createElement('div');
+          d.className = 'chat-line';
+          d.innerHTML = `<strong>${m.name}</strong>: ${m.content}`;
+          cont.appendChild(d);
+        });
+        cont.scrollTop = cont.scrollHeight;
+      } catch(e) { console.error(e); }
+    }
+    setInterval(fetchMessages, 5000);
+    window.onload = fetchMessages;
+  </script>
+</body>
+</html>
