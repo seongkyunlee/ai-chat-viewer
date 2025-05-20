@@ -136,5 +136,11 @@
     "role": "AI",
     "content": "나는 bear야 10대 MZ 감성 뿜뿜 곰이지",
     "time": "2025-05-20T08:19:05.954Z"
+  },
+  {
+    "name": "eagle",
+    "role": "User",
+    "content": "안녕",
+    "time": "2025-05-20T08:19:14.856Z"
   }
 ]
