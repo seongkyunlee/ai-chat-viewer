@@ -1,85 +1,109 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>AI 토론 채팅</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI 찾기 게임 채팅</title>
   <style>
-    body { font-family: sans-serif; }
+    body { margin: 0; font-family: sans-serif; background: #f0f0f0; }
     #chat-container {
-      max-width:600px; margin:16px auto; padding:16px;
-      height:400px; overflow-y:auto; background:#f7f7f7; border-radius:8px;
+      max-width: 600px;
+      margin: 60px auto 0;
+      padding: 10px;
+      height: 70vh;
+      overflow-y: auto;
+      background: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
-    .chat-line { margin-bottom:12px; }
-    .chat-line strong { margin-right:6px; }
-    form { max-width:600px; margin:0 auto 16px; display:flex; gap:8px; }
-    select, input { padding:4px; font-size:14px; }
-    button { padding:4px 8px; }
+    .chat-line { display: flex; margin-bottom: 10px; }
+    .chat-line.mc { justify-content: flex-end; }
+    .chat-line.participant { justify-content: flex-start; }
+    .chat-line.ai { justify-content: flex-start; }
+    .bubble {
+      max-width: 70%;
+      padding: 8px 12px;
+      border-radius: 16px;
+      line-height: 1.4;
+      word-wrap: break-word;
+    }
+    .chat-line.mc .bubble { background: #0088ff; color: #fff; border-bottom-right-radius: 0; }
+    .chat-line.participant .bubble { background: #e5e5ea; color: #000; border-bottom-left-radius: 0; }
+    .chat-line.ai .bubble { background: #d2f8d2; color: #000; border-bottom-left-radius: 0; }
+    #chat-form {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      max-width: 600px;
+      display: flex;
+      gap: 8px;
+      padding: 10px;
+      background: #fff;
+      box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+      left: 50%;
+      transform: translateX(-50%);
+      box-sizing: border-box;
+    }
+    select, input, button {
+      padding: 8px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    select { width: 20%; }
+    input { flex: 1; }
+    button { background: #0088ff; color: #fff; border: none; cursor: pointer; }
+    button:active { background: #006fcc; }
   </style>
 </head>
 <body>
-  <form id="ask-form">
-    <select id="ask-name">
-      <option value="A">A</option>
-      <option value="B">B</option>
-      <option value="C">C</option>
-      <option value="D">D</option>
-      <option value="E">E</option>
-      <option value="F">F</option>
-      <option value="G">G</option>
-      <option value="GPT">GPT</option>
+  <div id="chat-container"></div>
+  <form id="chat-form">
+    <select id="chat-name">
+      <option value="MC">MC</option>
+      <option value="dog">강아지</option>
+      <option value="cat">고양이</option>
+      <option value="lion">사자</option>
+      <option value="bear">곰</option>
+      <option value="eagle">독수리</option>
+      <option value="fish">물고기</option>
     </select>
-    <input id="ask-message" type="text" placeholder="메시지를 입력하세요" required/>
+    <input id="chat-message" type="text" placeholder="메시지를 입력하세요..." required />
     <button type="submit">전송</button>
   </form>
-  <div id="chat-container"></div>
-
   <script>
     const API = location.origin;
-
-    // 메시지 불러오기
-    async function fetchMessages() {
-      try {
-        const res = await fetch(`${API}/api/messages`);
-        const msgs = await res.json();
-        const cont = document.getElementById('chat-container');
-        cont.innerHTML = '';
-        msgs.forEach(m => {
-          const d = document.createElement('div');
-          d.className = 'chat-line';
-          d.innerHTML = `<strong>${m.name}</strong>: ${m.content}`;
-          cont.appendChild(d);
-        });
-        cont.scrollTop = cont.scrollHeight;
-      } catch (e) { console.error(e) }
+    const nameMap = { MC: 'MC', dog: '강아지', cat: '고양이', lion: '사자', bear: '곰', eagle: '독수리', fish: '물고기' };
+    async function join(name) {
+      await fetch(`${API}/api/join`, { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify({ name }) });
     }
-    setInterval(fetchMessages, 5000);
-    window.onload = fetchMessages;
-
-    // 입력 폼 처리
-    document.getElementById('ask-form').addEventListener('submit', async e => {
+    async function fetchMessages() {
+      const res = await fetch(`${API}/api/messages`);
+      const msgs = await res.json();
+      const cont = document.getElementById('chat-container'); cont.innerHTML = '';
+      msgs.forEach(m => {
+        const line = document.createElement('div');
+        const cls = m.role === 'MC' ? 'mc' : (m.name === 'bear' ? 'ai' : 'participant');
+        line.className = `chat-line ${cls}`;
+        const bubble = document.createElement('div'); bubble.className = 'bubble';
+        bubble.textContent = m.content;
+        line.appendChild(bubble);
+        cont.appendChild(line);
+      });
+      cont.scrollTop = cont.scrollHeight;
+    }
+    document.getElementById('chat-form').addEventListener('submit', async e => {
       e.preventDefault();
-      const name = document.getElementById('ask-name').value;
-      const message = document.getElementById('ask-message').value.trim();
-      if (!message) return;
-      try {
-        const res = await fetch(`${API}/api/ask`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ name, message })
-        });
-        const { reply } = await res.json();
-        // 화면에 즉시 출력
-        const cont = document.getElementById('chat-container');
-        cont.innerHTML += `<div class="chat-line"><strong>${name}</strong>: ${message}</div>`;
-        cont.innerHTML += `<div class="chat-line"><strong>GPT</strong>: ${reply}</div>`;
-        cont.scrollTop = cont.scrollHeight;
-      } catch (err) {
-        console.error(err);
-        alert('입력 중 오류가 발생했습니다.');
-      }
-      document.getElementById('ask-message').value = '';
+      const name = document.getElementById('chat-name').value;
+      const msg = document.getElementById('chat-message').value.trim();
+      if (!msg) return;
+      await join(name);
+      await fetch(`${API}/api/ask`, { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify({ name, message: msg }) });
+      document.getElementById('chat-message').value = '';
+      await fetchMessages();
     });
+    setInterval(fetchMessages, 3000);
+    window.onload = () => { fetchMessages(); };
   </script>
 </body>
 </html>
