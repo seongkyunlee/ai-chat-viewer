@@ -4,5 +4,11 @@
     "role": "User",
     "content": "안녕",
     "time": "2025-05-21T01:24:20.163Z"
+  },
+  {
+    "name": "dog",
+    "role": "User",
+    "content": "누가 ai 야",
+    "time": "2025-05-21T01:24:44.375Z"
   }
 ]
