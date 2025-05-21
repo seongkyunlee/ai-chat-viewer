@@ -166,5 +166,11 @@
     "role": "User",
     "content": "안녕",
     "time": "2025-05-20T09:14:28.079Z"
+  },
+  {
+    "name": "spectator",
+    "role": "User",
+    "content": "안녕",
+    "time": "2025-05-21T00:54:27.345Z"
   }
 ]
