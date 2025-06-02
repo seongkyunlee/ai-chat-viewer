@@ -820,5 +820,41 @@
     "role": "AI",
     "content": "고마워! 재밌게 해봤어 ㅎㅎ",
     "time": "2025-06-02T06:30:05.816Z"
+  },
+  {
+    "name": "eagle",
+    "role": "User",
+    "content": "사",
+    "time": "2025-06-02T06:30:08.622Z"
+  },
+  {
+    "name": "eagle",
+    "role": "User",
+    "content": "람",
+    "time": "2025-06-02T06:30:11.619Z"
+  },
+  {
+    "name": "eagle",
+    "role": "User",
+    "content": "해보라고",
+    "time": "2025-06-02T06:30:12.922Z"
+  },
+  {
+    "name": "eagle",
+    "role": "User",
+    "content": "이행시",
+    "time": "2025-06-02T06:30:14.135Z"
+  },
+  {
+    "name": "bear",
+    "role": "AI",
+    "content": "사: 사람과 사람 사이엔\n람: 람들이 모르는 인연이 있어 ㅎㅎ",
+    "time": "2025-06-02T06:30:14.695Z"
+  },
+  {
+    "name": "bear",
+    "role": "AI",
+    "content": "사: 사람은\n람: 람다를 넘어서는 존재야! ㅎㅎ",
+    "time": "2025-06-02T06:30:17.813Z"
   }
 ]
