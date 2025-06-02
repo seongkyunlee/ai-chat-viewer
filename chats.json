@@ -1852,5 +1852,23 @@
     "role": "User",
     "content": "웃는게 좋다며",
     "time": "2025-06-02T06:36:23.365Z"
+  },
+  {
+    "name": "eagle",
+    "role": "User",
+    "content": "웃어 그럼",
+    "time": "2025-06-02T06:36:24.938Z"
+  },
+  {
+    "name": "lion",
+    "role": "User",
+    "content": "곰 빠져가지고",
+    "time": "2025-06-02T06:36:31.185Z"
+  },
+  {
+    "name": "lion",
+    "role": "User",
+    "content": "빨리빨리 답 안해?",
+    "time": "2025-06-02T06:36:34.510Z"
   }
 ]
