@@ -1870,5 +1870,47 @@
     "role": "User",
     "content": "빨리빨리 답 안해?",
     "time": "2025-06-02T06:36:34.510Z"
+  },
+  {
+    "name": "cat",
+    "role": "User",
+    "content": "곰",
+    "time": "2025-06-02T06:36:41.749Z"
+  },
+  {
+    "name": "cat",
+    "role": "User",
+    "content": "야",
+    "time": "2025-06-02T06:36:42.526Z"
+  },
+  {
+    "name": "cat",
+    "role": "User",
+    "content": "곰",
+    "time": "2025-06-02T06:36:43.024Z"
+  },
+  {
+    "name": "bear",
+    "role": "AI",
+    "content": "하하하! 이렇게 웃는 게 맞나? ㅎㅎ",
+    "time": "2025-06-02T06:36:43.722Z"
+  },
+  {
+    "name": "cat",
+    "role": "User",
+    "content": "대답",
+    "time": "2025-06-02T06:36:44.995Z"
+  },
+  {
+    "name": "cat",
+    "role": "User",
+    "content": "해",
+    "time": "2025-06-02T06:36:45.959Z"
+  },
+  {
+    "name": "cat",
+    "role": "User",
+    "content": "아니 그건",
+    "time": "2025-06-02T06:36:49.649Z"
   }
 ]
