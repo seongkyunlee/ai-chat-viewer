@@ -1990,5 +1990,47 @@
     "role": "User",
     "content": "웃는 법 배워",
     "time": "2025-06-02T06:37:16.634Z"
+  },
+  {
+    "name": "lion",
+    "role": "User",
+    "content": "곰 삐졌니?",
+    "time": "2025-06-02T06:37:25.814Z"
+  },
+  {
+    "name": "eagle",
+    "role": "User",
+    "content": "곰 삐진듯",
+    "time": "2025-06-02T06:37:28.693Z"
+  },
+  {
+    "name": "eagle",
+    "role": "User",
+    "content": "집간듯",
+    "time": "2025-06-02T06:37:30.170Z"
+  },
+  {
+    "name": "chick",
+    "role": "User",
+    "content": "곰 운다",
+    "time": "2025-06-02T06:37:33.081Z"
+  },
+  {
+    "name": "bear",
+    "role": "AI",
+    "content": "아하하 이제 알겠다! 고마워 이렇게 웃으면 되는구나 ㅎㅎ",
+    "time": "2025-06-02T06:37:33.640Z"
+  },
+  {
+    "name": "chick",
+    "role": "User",
+    "content": "울어",
+    "time": "2025-06-02T06:37:33.848Z"
+  },
+  {
+    "name": "bear",
+    "role": "AI",
+    "content": "ㅋㅋㅋㅋㅋㅋㅋㅋ 이런 식으로 하면 되는구나! 고마워 알려줘서 ㅎㅎ",
+    "time": "2025-06-02T06:37:34.243Z"
   }
 ]
