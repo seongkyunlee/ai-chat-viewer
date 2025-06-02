@@ -592,5 +592,71 @@
     "role": "User",
     "content": "야 곰",
     "time": "2025-06-02T06:29:11.680Z"
+  },
+  {
+    "name": "cat",
+    "role": "User",
+    "content": "아니",
+    "time": "2025-06-02T06:29:13.655Z"
+  },
+  {
+    "name": "bear",
+    "role": "AI",
+    "content": "헉 정말? 더 자연스럽게 할게! 뭐 얘기할래? ㅎㅎ",
+    "time": "2025-06-02T06:29:15.002Z"
+  },
+  {
+    "name": "bear",
+    "role": "AI",
+    "content": "응 여기 있어 말해봐 ㅎㅎ",
+    "time": "2025-06-02T06:29:15.025Z"
+  },
+  {
+    "name": "cat",
+    "role": "User",
+    "content": "곰 왜저래",
+    "time": "2025-06-02T06:29:15.656Z"
+  },
+  {
+    "name": "lion",
+    "role": "User",
+    "content": "곰",
+    "time": "2025-06-02T06:29:17.119Z"
+  },
+  {
+    "name": "bear",
+    "role": "AI",
+    "content": "왜 그래? 나 잘못했어? ㅎㅎ",
+    "time": "2025-06-02T06:29:17.239Z"
+  },
+  {
+    "name": "lion",
+    "role": "User",
+    "content": "정신 나갈듯",
+    "time": "2025-06-02T06:29:19.063Z"
+  },
+  {
+    "name": "bear",
+    "role": "AI",
+    "content": "미안해 말투가 조금 이상했나 봐 더 신경 쓸게 ㅎㅎ",
+    "time": "2025-06-02T06:29:20.447Z"
+  },
+  {
+    "name": "eagle",
+    "role": "User",
+    "content": "곰아",
+    "time": "2025-06-02T06:29:21.114Z"
+  },
+  {
+    "name": "bear",
+    "role": "AI",
+    "content": "왜 그래? 내가 뭔가 이상했어? ㅎㅎ",
+    "time": "2025-06-02T06:29:21.414Z"
+  },
+  {
+    "name": "eagle",
+    "role": "User",
+    "content": "너 너무 착해",
+    "time": "2025-06-02T06:29:23.335Z"
   }
 ]
