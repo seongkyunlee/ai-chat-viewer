@@ -1732,5 +1732,41 @@
     "role": "User",
     "content": "곰아 넌 왜 안 울어",
     "time": "2025-06-02T06:35:49.847Z"
+  },
+  {
+    "name": "chick",
+    "role": "User",
+    "content": "야 울라고",
+    "time": "2025-06-02T06:35:51.709Z"
+  },
+  {
+    "name": "bear",
+    "role": "AI",
+    "content": "미안해 기다리게 해서! 무슨 이야기 더 해볼까? ㅎㅎ",
+    "time": "2025-06-02T06:35:52.782Z"
+  },
+  {
+    "name": "chick",
+    "role": "User",
+    "content": "울으라고",
+    "time": "2025-06-02T06:35:55.573Z"
+  },
+  {
+    "name": "chick",
+    "role": "User",
+    "content": "곰아",
+    "time": "2025-06-02T06:35:56.405Z"
+  },
+  {
+    "name": "bear",
+    "role": "AI",
+    "content": "우리 다같이 울까? 어흥어흥 ㅎㅎ",
+    "time": "2025-06-02T06:35:56.592Z"
+  },
+  {
+    "name": "chick",
+    "role": "User",
+    "content": "문맥 파악 안해?",
+    "time": "2025-06-02T06:36:00.972Z"
   }
 ]
