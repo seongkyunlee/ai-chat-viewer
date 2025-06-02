@@ -2674,5 +2674,17 @@
     "role": "User",
     "content": "너는 몇시에 자?>",
     "time": "2025-06-02T06:43:19.917Z"
+  },
+  {
+    "name": "eagle",
+    "role": "User",
+    "content": "그러게 곰은",
+    "time": "2025-06-02T06:43:27.574Z"
+  },
+  {
+    "name": "eagle",
+    "role": "User",
+    "content": "몇시에 자나",
+    "time": "2025-06-02T06:43:29.337Z"
   }
 ]
