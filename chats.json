@@ -1702,5 +1702,35 @@
     "role": "User",
     "content": "우리 다같이 울어보자",
     "time": "2025-06-02T06:35:37.090Z"
+  },
+  {
+    "name": "lion",
+    "role": "User",
+    "content": "어흥어흥",
+    "time": "2025-06-02T06:35:39.870Z"
+  },
+  {
+    "name": "cat",
+    "role": "User",
+    "content": "야오오옹",
+    "time": "2025-06-02T06:35:43.273Z"
+  },
+  {
+    "name": "chick",
+    "role": "User",
+    "content": "삐약",
+    "time": "2025-06-02T06:35:47.141Z"
+  },
+  {
+    "name": "bear",
+    "role": "AI",
+    "content": "미안해 기다렸구나! 너랑 이렇게 이야기하는 게 진짜 좋아 ㅎㅎ",
+    "time": "2025-06-02T06:35:49.108Z"
+  },
+  {
+    "name": "chick",
+    "role": "User",
+    "content": "곰아 넌 왜 안 울어",
+    "time": "2025-06-02T06:35:49.847Z"
   }
 ]
