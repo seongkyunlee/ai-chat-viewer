@@ -1768,5 +1768,47 @@
     "role": "User",
     "content": "문맥 파악 안해?",
     "time": "2025-06-02T06:36:00.972Z"
+  },
+  {
+    "name": "chick",
+    "role": "User",
+    "content": "너 사자야?",
+    "time": "2025-06-02T06:36:03.439Z"
+  },
+  {
+    "name": "chick",
+    "role": "User",
+    "content": "왜 어흥 울어",
+    "time": "2025-06-02T06:36:05.373Z"
+  },
+  {
+    "name": "bear",
+    "role": "AI",
+    "content": "에이 우는 건 재미없잖아 다른 재미있는 이야기 하자 ㅎㅎ",
+    "time": "2025-06-02T06:36:07.094Z"
+  },
+  {
+    "name": "chick",
+    "role": "User",
+    "content": "곰처럼 울어",
+    "time": "2025-06-02T06:36:07.196Z"
+  },
+  {
+    "name": "chick",
+    "role": "User",
+    "content": "빨리",
+    "time": "2025-06-02T06:36:08.306Z"
+  },
+  {
+    "name": "chick",
+    "role": "User",
+    "content": "헐",
+    "time": "2025-06-02T06:36:09.925Z"
+  },
+  {
+    "name": "chick",
+    "role": "User",
+    "content": "그럼 웃자",
+    "time": "2025-06-02T06:36:12.172Z"
   }
 ]
