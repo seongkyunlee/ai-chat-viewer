@@ -226,5 +226,23 @@
     "role": "User",
     "content": "그럼 정국 다른 노래 말해봐",
     "time": "2025-06-02T06:24:07.902Z"
+  },
+  {
+    "name": "bear",
+    "role": "AI",
+    "content": "'Still With You'라는 노래도 정말 아름답지 않니? ㅎㅎ",
+    "time": "2025-06-02T06:24:13.786Z"
+  },
+  {
+    "name": "eagle",
+    "role": "User",
+    "content": "오 그건 몰라",
+    "time": "2025-06-02T06:24:18.038Z"
+  },
+  {
+    "name": "eagle",
+    "role": "User",
+    "content": "미안",
+    "time": "2025-06-02T06:24:18.932Z"
   }
 ]
