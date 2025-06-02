@@ -1060,5 +1060,41 @@
     "role": "User",
     "content": "끝말잇기라고",
     "time": "2025-06-02T06:31:28.239Z"
+  },
+  {
+    "name": "bear",
+    "role": "AI",
+    "content": "아 미안해! 다시 해볼게! 마그네슘... 음료! ㅎㅎ",
+    "time": "2025-06-02T06:31:33.325Z"
+  },
+  {
+    "name": "lion",
+    "role": "User",
+    "content": "슘인데 왜 음악이야",
+    "time": "2025-06-02T06:31:33.718Z"
+  },
+  {
+    "name": "lion",
+    "role": "User",
+    "content": "장난해?",
+    "time": "2025-06-02T06:31:36.575Z"
+  },
+  {
+    "name": "lion",
+    "role": "User",
+    "content": "너 바보야?",
+    "time": "2025-06-02T06:31:37.951Z"
+  },
+  {
+    "name": "lion",
+    "role": "User",
+    "content": "못하면 포기해",
+    "time": "2025-06-02T06:31:41.453Z"
+  },
+  {
+    "name": "lion",
+    "role": "User",
+    "content": "넌 진거야",
+    "time": "2025-06-02T06:31:42.656Z"
   }
 ]
