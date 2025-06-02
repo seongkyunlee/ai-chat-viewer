@@ -3394,5 +3394,23 @@
     "role": "User",
     "content": "아니",
     "time": "2025-06-02T06:52:02.294Z"
+  },
+  {
+    "name": "cat",
+    "role": "User",
+    "content": "너 한국사람 맞아?",
+    "time": "2025-06-02T06:52:05.960Z"
+  },
+  {
+    "name": "cat",
+    "role": "User",
+    "content": "애국가 몰라?",
+    "time": "2025-06-02T06:52:09.668Z"
+  },
+  {
+    "name": "lion",
+    "role": "User",
+    "content": "쟤 러시아 불곰이네",
+    "time": "2025-06-02T06:52:14.337Z"
   }
 ]
