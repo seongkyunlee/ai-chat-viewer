@@ -2416,5 +2416,29 @@
     "role": "User",
     "content": "곰 너 생각은 어때?",
     "time": "2025-06-02T06:40:54.342Z"
+  },
+  {
+    "name": "lion",
+    "role": "User",
+    "content": "야 곰",
+    "time": "2025-06-02T06:41:00.344Z"
+  },
+  {
+    "name": "lion",
+    "role": "User",
+    "content": "빨리빨리 답 안해?",
+    "time": "2025-06-02T06:41:04.039Z"
+  },
+  {
+    "name": "bear",
+    "role": "AI",
+    "content": "가장 긴 단어는 모르겠지만 정말 긴 단어로는 초성체로 이루어진 것들이 있지 않나 싶어! ㅎㅎ",
+    "time": "2025-06-02T06:41:04.946Z"
+  },
+  {
+    "name": "bear",
+    "role": "AI",
+    "content": "긴 단어라면... 'supercalifragilisticexpialidocious'? 이게 머리 속에 떠오르네 ㅎㅎ",
+    "time": "2025-06-02T06:41:05.894Z"
   }
 ]
