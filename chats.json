@@ -1972,5 +1972,23 @@
     "role": "User",
     "content": "배워 곰",
     "time": "2025-06-02T06:37:01.906Z"
+  },
+  {
+    "name": "cat",
+    "role": "User",
+    "content": "야 곰",
+    "time": "2025-06-02T06:37:10.260Z"
+  },
+  {
+    "name": "cat",
+    "role": "User",
+    "content": "배우라고",
+    "time": "2025-06-02T06:37:13.417Z"
+  },
+  {
+    "name": "cat",
+    "role": "User",
+    "content": "웃는 법 배워",
+    "time": "2025-06-02T06:37:16.634Z"
   }
 ]
