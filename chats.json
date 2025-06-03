@@ -88,5 +88,23 @@
     "role": "User",
     "content": "좋아좋아",
     "time": "2025-06-03T02:44:10.227Z"
+  },
+  {
+    "name": "chick",
+    "role": "User",
+    "content": "넵 알겠습니다.",
+    "time": "2025-06-03T02:44:13.558Z"
+  },
+  {
+    "name": "bear",
+    "role": "AI",
+    "content": "좋아 ㅋㅋ 다들 뭐 하고 있었어?",
+    "time": "2025-06-03T02:44:14.164Z"
+  },
+  {
+    "name": "man",
+    "role": "User",
+    "content": "좋다",
+    "time": "2025-06-03T02:44:18.348Z"
   }
 ]
