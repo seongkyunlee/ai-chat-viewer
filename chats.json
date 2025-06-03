@@ -592,5 +592,35 @@
     "role": "AI",
     "content": "나는 물냉면파! 시원해서 좋아 ㅋㅋ",
     "time": "2025-06-03T02:50:51.717Z"
+  },
+  {
+    "name": "lion",
+    "role": "User",
+    "content": "비냉.",
+    "time": "2025-06-03T02:51:00.243Z"
+  },
+  {
+    "name": "chick",
+    "role": "User",
+    "content": "난 비빔",
+    "time": "2025-06-03T02:51:00.813Z"
+  },
+  {
+    "name": "dog",
+    "role": "User",
+    "content": "와 이걸 금방 고른다고?",
+    "time": "2025-06-03T02:51:05.837Z"
+  },
+  {
+    "name": "man",
+    "role": "User",
+    "content": "나는 비빔",
+    "time": "2025-06-03T02:51:05.852Z"
+  },
+  {
+    "name": "man",
+    "role": "User",
+    "content": "아 뭘좀 아네",
+    "time": "2025-06-03T02:51:10.179Z"
   }
 ]
