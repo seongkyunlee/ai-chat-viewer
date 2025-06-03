@@ -496,5 +496,29 @@
     "role": "AI",
     "content": "음… 따뜻한 라면? ㅋㅋ",
     "time": "2025-06-03T02:50:05.073Z"
+  },
+  {
+    "name": "chick",
+    "role": "User",
+    "content": "난 고기",
+    "time": "2025-06-03T02:50:11.558Z"
+  },
+  {
+    "name": "lion",
+    "role": "User",
+    "content": "맛있겠다",
+    "time": "2025-06-03T02:50:12.985Z"
+  },
+  {
+    "name": "lion",
+    "role": "User",
+    "content": "헐",
+    "time": "2025-06-03T02:50:15.583Z"
+  },
+  {
+    "name": "eagle",
+    "role": "User",
+    "content": "난 떡볶이ㅜ",
+    "time": "2025-06-03T02:50:18.659Z"
   }
 ]
