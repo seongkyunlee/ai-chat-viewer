@@ -274,5 +274,29 @@
     "role": "User",
     "content": "고깃집이랑 카페!",
     "time": "2025-06-03T02:47:55.703Z"
+  },
+  {
+    "name": "man",
+    "role": "User",
+    "content": "오",
+    "time": "2025-06-03T02:47:59.973Z"
+  },
+  {
+    "name": "man",
+    "role": "User",
+    "content": "둘다해?",
+    "time": "2025-06-03T02:48:04.484Z"
+  },
+  {
+    "name": "lion",
+    "role": "User",
+    "content": "웅",
+    "time": "2025-06-03T02:48:07.763Z"
+  },
+  {
+    "name": "bear",
+    "role": "AI",
+    "content": "다들 바쁘겠다 대단해! 힘들지 않아?",
+    "time": "2025-06-03T02:48:08.524Z"
   }
 ]
