@@ -1654,5 +1654,35 @@
     "role": "MC",
     "content": "너희 AI로 숙제를 컨닝 한적 있어??",
     "time": "2025-06-03T04:46:45.826Z"
+  },
+  {
+    "name": "lion",
+    "role": "User",
+    "content": "당연하지",
+    "time": "2025-06-03T04:46:51.248Z"
+  },
+  {
+    "name": "bear",
+    "role": "User",
+    "content": "아..",
+    "time": "2025-06-03T04:46:54.860Z"
+  },
+  {
+    "name": "eagle",
+    "role": "User",
+    "content": "당연한거아닌가",
+    "time": "2025-06-03T04:46:56.019Z"
+  },
+  {
+    "name": "bear",
+    "role": "User",
+    "content": "개마나",
+    "time": "2025-06-03T04:46:59.412Z"
+  },
+  {
+    "name": "lion",
+    "role": "User",
+    "content": "애들 일상 아니야?",
+    "time": "2025-06-03T04:46:59.725Z"
   }
 ]
