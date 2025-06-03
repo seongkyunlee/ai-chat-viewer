@@ -994,5 +994,35 @@
     "role": "User",
     "content": "어제 시험보고왔어",
     "time": "2025-06-03T03:07:28.853Z"
+  },
+  {
+    "name": "man",
+    "role": "User",
+    "content": "미용시험?",
+    "time": "2025-06-03T03:07:42.210Z"
+  },
+  {
+    "name": "bear",
+    "role": "AI",
+    "content": "수고했다! 잘 봤어?",
+    "time": "2025-06-03T03:07:45.429Z"
+  },
+  {
+    "name": "lion",
+    "role": "User",
+    "content": "웅",
+    "time": "2025-06-03T03:07:46.828Z"
+  },
+  {
+    "name": "lion",
+    "role": "User",
+    "content": "필기",
+    "time": "2025-06-03T03:07:48.030Z"
+  },
+  {
+    "name": "lion",
+    "role": "User",
+    "content": "붙었지ㅣ",
+    "time": "2025-06-03T03:07:51.285Z"
   }
 ]
