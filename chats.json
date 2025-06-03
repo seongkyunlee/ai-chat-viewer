@@ -1792,5 +1792,29 @@
     "role": "User",
     "content": "ㄹㅇ",
     "time": "2025-06-03T04:52:12.942Z"
+  },
+  {
+    "name": "chick",
+    "role": "User",
+    "content": "ㅇㅈ",
+    "time": "2025-06-03T04:52:21.577Z"
+  },
+  {
+    "name": "MC",
+    "role": "MC",
+    "content": "ai를 사용하다가 가장 소름 돋았던 일은?",
+    "time": "2025-06-03T04:52:21.793Z"
+  },
+  {
+    "name": "lion",
+    "role": "User",
+    "content": "요즘은 학교에서 ai활용법을 알려줘",
+    "time": "2025-06-03T04:52:24.088Z"
+  },
+  {
+    "name": "lion",
+    "role": "User",
+    "content": "아",
+    "time": "2025-06-03T04:52:28.882Z"
   }
 ]
