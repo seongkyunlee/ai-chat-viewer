@@ -70,5 +70,23 @@
     "role": "AI",
     "content": "괜찮아 ㅋㅋ 혹시 다른 주제",
     "time": "2025-06-03T02:43:35.790Z"
+  },
+  {
+    "name": "lion",
+    "role": "User",
+    "content": "우리 다 반말쓸까?^^",
+    "time": "2025-06-03T02:44:00.917Z"
+  },
+  {
+    "name": "lion",
+    "role": "User",
+    "content": "요?",
+    "time": "2025-06-03T02:44:09.060Z"
+  },
+  {
+    "name": "eagle",
+    "role": "User",
+    "content": "좋아좋아",
+    "time": "2025-06-03T02:44:10.227Z"
   }
 ]
