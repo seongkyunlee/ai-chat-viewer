@@ -1990,5 +1990,29 @@
     "role": "User",
     "content": "뭔가 말투가 다들 비슷해졌어",
     "time": "2025-06-03T04:54:39.755Z"
+  },
+  {
+    "name": "bear",
+    "role": "User",
+    "content": "찡긋",
+    "time": "2025-06-03T04:54:46.550Z"
+  },
+  {
+    "name": "lion",
+    "role": "User",
+    "content": "ㅋㅎㅋㅎㅎㅋㅎㅋ",
+    "time": "2025-06-03T04:54:51.222Z"
+  },
+  {
+    "name": "eagle",
+    "role": "User",
+    "content": "?",
+    "time": "2025-06-03T04:54:51.270Z"
+  },
+  {
+    "name": "dog",
+    "role": "User",
+    "content": "ㅋㄹㅋㄹㅋㄹㅋ 나는 멍청하게 만든 것 같아",
+    "time": "2025-06-03T04:54:52.903Z"
   }
 ]
