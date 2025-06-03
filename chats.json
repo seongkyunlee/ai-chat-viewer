@@ -724,5 +724,35 @@
     "role": "User",
     "content": "말 똑바로 안하지 ㅡㅡ",
     "time": "2025-06-03T02:52:04.294Z"
+  },
+  {
+    "name": "dog",
+    "role": "User",
+    "content": "난 떡볶이집 계란찜이 좋아",
+    "time": "2025-06-03T02:52:09.884Z"
+  },
+  {
+    "name": "man",
+    "role": "User",
+    "content": "너 의심된다",
+    "time": "2025-06-03T02:52:11.815Z"
+  },
+  {
+    "name": "man",
+    "role": "User",
+    "content": "똑바로해",
+    "time": "2025-06-03T02:52:15.365Z"
+  },
+  {
+    "name": "lion",
+    "role": "User",
+    "content": "난 고깃집",
+    "time": "2025-06-03T02:52:16.308Z"
+  },
+  {
+    "name": "bear",
+    "role": "AI",
+    "content": "미안 ㅋㅋ 고깃집 계란찜 진짜",
+    "time": "2025-06-03T02:52:19.513Z"
   }
 ]
